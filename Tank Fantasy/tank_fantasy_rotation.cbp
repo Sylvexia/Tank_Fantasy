@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="tank_fantasy_rotation" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/tank_fantasy_rotation" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/tank_fantasy_rotation" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1/include" />
+			<Add directory="C:/Users/曾煥博/Downloads/allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1/allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1/include" />
+			<Add directory="../../../../compiler/allegro-x86_64-w64-/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-static-libstdc++" />
+			<Add option="-static-libgcc" />
+			<Add option="-static" />
+			<Add library="liballegro_monolith-static.a" />
+			<Add library="libdumb.a" />
+			<Add library="libFLAC.a" />
+			<Add library="libfreetype.a" />
+			<Add library="libjpeg.a" />
+			<Add library="libopusfile.a" />
+			<Add library="libopus.a" />
+			<Add library="libphysfs.a" />
+			<Add library="libpng16.a" />
+			<Add library="libtheoradec.a" />
+			<Add library="libvorbisfile.a" />
+			<Add library="libvorbis.a" />
+			<Add library="libogg.a" />
+			<Add library="libwebp.a" />
+			<Add library="libwebpdecoder.a" />
+			<Add library="libwebpdemux.a" />
+			<Add library="libzlib.a" />
+			<Add library="libpsapi.a" />
+			<Add library="libwinmm.a" />
+			<Add library="libshlwapi.a" />
+			<Add library="libgdi32.a" />
+			<Add library="libopengl32.a" />
+			<Add library="libole32.a" />
+			<Add library="libdsound.a" />
+			<Add library="libpthread.a" />
+			<Add library="libkernel32.a" />
+			<Add library="libuser32.a" />
+			<Add library="libwinspool.a" />
+			<Add library="libshell32.a" />
+			<Add library="liboleaut32.a" />
+			<Add library="libuuid.a" />
+			<Add library="libcomdlg32.a" />
+			<Add library="libadvapi32.a" />
+			<Add library="libstdc++" />
+			<Add directory="C:/allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1/lib" />
+			<Add directory="C:/Users/曾煥博/Downloads/allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1/allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1/lib" />
+			<Add directory="../../../../compiler/allegro-x86_64-w64-/lib" />
+		</Linker>
+		<Unit filename="boss.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="boss.h" />
+		<Unit filename="camera.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="camera.h" />
+		<Unit filename="collision.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="collision.h" />
+		<Unit filename="control.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="control.h" />
+		<Unit filename="draw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="draw.h" />
+		<Unit filename="enemy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="enemy.h" />
+		<Unit filename="firebar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="firebar.h" />
+		<Unit filename="game_state.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="game_state.h" />
+		<Unit filename="level.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="level.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="obstacle.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="obstacle.h" />
+		<Unit filename="save.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="save.h" />
+		<Unit filename="setting.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="setting.h" />
+		<Unit filename="tank.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tank.h" />
+		<Unit filename="test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

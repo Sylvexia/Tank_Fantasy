@@ -1,0 +1,2814 @@
+# depslib dependency file v1.0
+1607875581 source:c:\users\user\desktop\tank_fantasy_rotation\setting.c
+	"setting.h"
+
+1607875580 c:\users\user\desktop\tank_fantasy_rotation\setting.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_image.h>
+
+1553403848 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\allegro.h
+	"allegro5/base.h"
+	"allegro5/altime.h"
+	"allegro5/bitmap.h"
+	"allegro5/bitmap_draw.h"
+	"allegro5/bitmap_io.h"
+	"allegro5/bitmap_lock.h"
+	"allegro5/blender.h"
+	"allegro5/clipboard.h"
+	"allegro5/color.h"
+	"allegro5/config.h"
+	"allegro5/cpu.h"
+	"allegro5/debug.h"
+	"allegro5/display.h"
+	"allegro5/drawing.h"
+	"allegro5/error.h"
+	"allegro5/events.h"
+	"allegro5/file.h"
+	"allegro5/fixed.h"
+	"allegro5/fmaths.h"
+	"allegro5/fshook.h"
+	"allegro5/fullscreen_mode.h"
+	"allegro5/haptic.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/memory.h"
+	"allegro5/monitor.h"
+	"allegro5/mouse.h"
+	"allegro5/mouse_cursor.h"
+	"allegro5/path.h"
+	"allegro5/render_state.h"
+	"allegro5/shader.h"
+	"allegro5/system.h"
+	"allegro5/threads.h"
+	"allegro5/timer.h"
+	"allegro5/tls.h"
+	"allegro5/touch_input.h"
+	"allegro5/transformations.h"
+	"allegro5/utf8.h"
+	"allegro5/alcompat.h"
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\base.h
+	<errno.h>
+	<limits.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<sys/types.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"allegro5/internal/alconfig.h"
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\internal\alconfig.h
+	"allegro5/platform/alplatf.h"
+	"allegro5/platform/alwatcom.h"
+	"allegro5/platform/almngw32.h"
+	"allegro5/platform/albcc32.h"
+	"allegro5/platform/almsvc.h"
+	"allegro5/platform/aliphonecfg.h"
+	"allegro5/platform/alosxcfg.h"
+	"allegro5/platform/alandroidcfg.h"
+	"allegro5/platform/alraspberrypicfg.h"
+	"allegro5/platform/alucfg.h"
+	"allegro5/platform/allegro_sdl_config.h"
+	"allegro5/platform/astdint.h"
+	"allegro5/platform/astdbool.h"
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\alplatf.h
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\aliphonecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\alosxcfg.h
+	"allegro5/platform/alplatf.h"
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\alandroidcfg.h
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\alraspberrypicfg.h
+	<fcntl.h>
+	<unistd.h>
+	<sys/types.h>
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"alunix.h"
+	"allegro5/platform/alplatf.h"
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\alunix.h
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\allegro_sdl_config.h
+	<fcntl.h>
+	<unistd.h>
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+	<limits.h>
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\astdbool.h
+	<stdbool.h>
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\altime.h
+	"allegro5/base.h"
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\bitmap.h
+	"allegro5/color.h"
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\color.h
+	"allegro5/base.h"
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\bitmap_draw.h
+	"allegro5/bitmap.h"
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\bitmap_io.h
+	"allegro5/bitmap.h"
+	"allegro5/file.h"
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\file.h
+	"allegro5/base.h"
+	"allegro5/path.h"
+	"allegro5/utf8.h"
+
+1553403848 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\path.h
+	"allegro5/base.h"
+	"allegro5/utf8.h"
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\utf8.h
+	"allegro5/base.h"
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\bitmap_lock.h
+	"allegro5/bitmap.h"
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\blender.h
+	"allegro5/base.h"
+	"allegro5/color.h"
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\clipboard.h
+	"allegro5/base.h"
+	"allegro5/display.h"
+	"allegro5/utf8.h"
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\display.h
+	"allegro5/bitmap.h"
+	"allegro5/color.h"
+	"allegro5/events.h"
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\events.h
+	"allegro5/altime.h"
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\config.h
+	"allegro5/file.h"
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\cpu.h
+	"allegro5/base.h"
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\debug.h
+	<assert.h>
+	"allegro5/base.h"
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\drawing.h
+	"allegro5/color.h"
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\error.h
+	"allegro5/base.h"
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\fixed.h
+	"allegro5/base.h"
+
+1553403848 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\fmaths.h
+	"allegro5/base.h"
+	"allegro5/fixed.h"
+	"allegro5/inline/fmaths.inl"
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\inline\fmaths.inl
+	"allegro5/error.h"
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\fshook.h
+	"allegro5/base.h"
+	"allegro5/file.h"
+	"allegro5/path.h"
+	<sys/types.h>
+
+1553403848 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\fullscreen_mode.h
+	"allegro5/base.h"
+
+1553403848 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\haptic.h
+	"allegro5/base.h"
+	"allegro5/display.h"
+	"allegro5/events.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/mouse.h"
+	"allegro5/touch_input.h"
+
+1553403848 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\joystick.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1553403848 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\keyboard.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+	"allegro5/keycodes.h"
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\keycodes.h
+
+1553403848 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\mouse.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1553403848 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\touch_input.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\memory.h
+	"allegro5/base.h"
+
+1553403848 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\monitor.h
+	"allegro5/base.h"
+
+1553403848 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\mouse_cursor.h
+	"allegro5/base.h"
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\render_state.h
+	"allegro5/base.h"
+
+1553403848 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\shader.h
+	"allegro5/base.h"
+	"allegro5/transformations.h"
+
+1553403848 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\transformations.h
+	"allegro5/display.h"
+
+1553403848 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\system.h
+	"allegro5/config.h"
+	"allegro5/path.h"
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\threads.h
+	"allegro5/altime.h"
+
+1553403848 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\timer.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1553403848 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\tls.h
+	"allegro5/base.h"
+
+1553403848 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\alcompat.h
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\allegro_primitives.h
+	<allegro5/allegro.h>
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\allegro_image.h
+	"allegro5/base.h"
+
+1607875580 source:c:\users\user\desktop\tank_fantasy_rotation\camera.c
+	"camera.h"
+
+1607875828 c:\users\user\desktop\tank_fantasy_rotation\camera.h
+	<allegro5/allegro.h>
+	"tank.h"
+	<stdio.h>
+
+1607875828 c:\users\user\desktop\tank_fantasy_rotation\tank.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+
+1607875580 source:c:\users\user\desktop\tank_fantasy_rotation\tank.c
+	"tank.h"
+	<stdio.h>
+
+1607881559 source:c:\users\user\desktop\tank_fantasy_rotation\test.c
+	"test.h"
+	"camera.h"
+
+1607884820 c:\users\user\desktop\tank_fantasy_rotation\test.h
+	<allegro5/allegro.h>
+	<stdio.h>
+	<math.h>
+	"camera.h"
+
+1607885228 source:c:\users\user\desktop\tank_fantasy_rotation\control.c
+	"control.h"
+	"headers.h"
+
+1607884857 c:\users\user\desktop\tank_fantasy_rotation\control.h
+	"tank.h"
+	"camera.h"
+
+1607875580 c:\users\user\desktop\tank_fantasy_rotation\headers.h
+	<stdio.h>
+	<stdlib.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_image.h>
+
+1553403850 c:\allegro\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\allegro_native_dialog.h
+	"allegro5/allegro.h"
+
+1607884905 source:c:\users\user\desktop\tank_fantasy_rotation\main.c
+	"camera.h"
+	"setting.h"
+	"control.h"
+	"test.h"
+
+1607875580 source:c:\users\hp\desktop\tank_fantasy_rotation\camera.c
+	"camera.h"
+
+1607931925 c:\users\hp\desktop\tank_fantasy_rotation\camera.h
+	<allegro5/allegro.h>
+	"tank.h"
+	<stdio.h>
+
+1553403848 c:\compiler\allegro-x86_64-w64-\include\allegro5\allegro.h
+	"allegro5/base.h"
+	"allegro5/altime.h"
+	"allegro5/bitmap.h"
+	"allegro5/bitmap_draw.h"
+	"allegro5/bitmap_io.h"
+	"allegro5/bitmap_lock.h"
+	"allegro5/blender.h"
+	"allegro5/clipboard.h"
+	"allegro5/color.h"
+	"allegro5/config.h"
+	"allegro5/cpu.h"
+	"allegro5/debug.h"
+	"allegro5/display.h"
+	"allegro5/drawing.h"
+	"allegro5/error.h"
+	"allegro5/events.h"
+	"allegro5/file.h"
+	"allegro5/fixed.h"
+	"allegro5/fmaths.h"
+	"allegro5/fshook.h"
+	"allegro5/fullscreen_mode.h"
+	"allegro5/haptic.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/memory.h"
+	"allegro5/monitor.h"
+	"allegro5/mouse.h"
+	"allegro5/mouse_cursor.h"
+	"allegro5/path.h"
+	"allegro5/render_state.h"
+	"allegro5/shader.h"
+	"allegro5/system.h"
+	"allegro5/threads.h"
+	"allegro5/timer.h"
+	"allegro5/tls.h"
+	"allegro5/touch_input.h"
+	"allegro5/transformations.h"
+	"allegro5/utf8.h"
+	"allegro5/alcompat.h"
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\base.h
+	<errno.h>
+	<limits.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<sys/types.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"allegro5/internal/alconfig.h"
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\internal\alconfig.h
+	"allegro5/platform/alplatf.h"
+	"allegro5/platform/alwatcom.h"
+	"allegro5/platform/almngw32.h"
+	"allegro5/platform/albcc32.h"
+	"allegro5/platform/almsvc.h"
+	"allegro5/platform/aliphonecfg.h"
+	"allegro5/platform/alosxcfg.h"
+	"allegro5/platform/alandroidcfg.h"
+	"allegro5/platform/alraspberrypicfg.h"
+	"allegro5/platform/alucfg.h"
+	"allegro5/platform/allegro_sdl_config.h"
+	"allegro5/platform/astdint.h"
+	"allegro5/platform/astdbool.h"
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\platform\alplatf.h
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\platform\aliphonecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\platform\alosxcfg.h
+	"allegro5/platform/alplatf.h"
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\platform\alandroidcfg.h
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\platform\alraspberrypicfg.h
+	<fcntl.h>
+	<unistd.h>
+	<sys/types.h>
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"alunix.h"
+	"allegro5/platform/alplatf.h"
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\platform\alunix.h
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\platform\allegro_sdl_config.h
+	<fcntl.h>
+	<unistd.h>
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+	<limits.h>
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\platform\astdbool.h
+	<stdbool.h>
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\altime.h
+	"allegro5/base.h"
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\bitmap.h
+	"allegro5/color.h"
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\color.h
+	"allegro5/base.h"
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\bitmap_draw.h
+	"allegro5/bitmap.h"
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\bitmap_io.h
+	"allegro5/bitmap.h"
+	"allegro5/file.h"
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\file.h
+	"allegro5/base.h"
+	"allegro5/path.h"
+	"allegro5/utf8.h"
+
+1553403848 c:\compiler\allegro-x86_64-w64-\include\allegro5\path.h
+	"allegro5/base.h"
+	"allegro5/utf8.h"
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\utf8.h
+	"allegro5/base.h"
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\bitmap_lock.h
+	"allegro5/bitmap.h"
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\blender.h
+	"allegro5/base.h"
+	"allegro5/color.h"
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\clipboard.h
+	"allegro5/base.h"
+	"allegro5/display.h"
+	"allegro5/utf8.h"
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\display.h
+	"allegro5/bitmap.h"
+	"allegro5/color.h"
+	"allegro5/events.h"
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\events.h
+	"allegro5/altime.h"
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\config.h
+	"allegro5/file.h"
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\cpu.h
+	"allegro5/base.h"
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\debug.h
+	<assert.h>
+	"allegro5/base.h"
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\drawing.h
+	"allegro5/color.h"
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\error.h
+	"allegro5/base.h"
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\fixed.h
+	"allegro5/base.h"
+
+1553403848 c:\compiler\allegro-x86_64-w64-\include\allegro5\fmaths.h
+	"allegro5/base.h"
+	"allegro5/fixed.h"
+	"allegro5/inline/fmaths.inl"
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\inline\fmaths.inl
+	"allegro5/error.h"
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\fshook.h
+	"allegro5/base.h"
+	"allegro5/file.h"
+	"allegro5/path.h"
+	<sys/types.h>
+
+1553403848 c:\compiler\allegro-x86_64-w64-\include\allegro5\fullscreen_mode.h
+	"allegro5/base.h"
+
+1553403848 c:\compiler\allegro-x86_64-w64-\include\allegro5\haptic.h
+	"allegro5/base.h"
+	"allegro5/display.h"
+	"allegro5/events.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/mouse.h"
+	"allegro5/touch_input.h"
+
+1553403848 c:\compiler\allegro-x86_64-w64-\include\allegro5\joystick.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1553403848 c:\compiler\allegro-x86_64-w64-\include\allegro5\keyboard.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+	"allegro5/keycodes.h"
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\keycodes.h
+
+1553403848 c:\compiler\allegro-x86_64-w64-\include\allegro5\mouse.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1553403848 c:\compiler\allegro-x86_64-w64-\include\allegro5\touch_input.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\memory.h
+	"allegro5/base.h"
+
+1553403848 c:\compiler\allegro-x86_64-w64-\include\allegro5\monitor.h
+	"allegro5/base.h"
+
+1553403848 c:\compiler\allegro-x86_64-w64-\include\allegro5\mouse_cursor.h
+	"allegro5/base.h"
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\render_state.h
+	"allegro5/base.h"
+
+1553403848 c:\compiler\allegro-x86_64-w64-\include\allegro5\shader.h
+	"allegro5/base.h"
+	"allegro5/transformations.h"
+
+1553403848 c:\compiler\allegro-x86_64-w64-\include\allegro5\transformations.h
+	"allegro5/display.h"
+
+1553403848 c:\compiler\allegro-x86_64-w64-\include\allegro5\system.h
+	"allegro5/config.h"
+	"allegro5/path.h"
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\threads.h
+	"allegro5/altime.h"
+
+1553403848 c:\compiler\allegro-x86_64-w64-\include\allegro5\timer.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1553403848 c:\compiler\allegro-x86_64-w64-\include\allegro5\tls.h
+	"allegro5/base.h"
+
+1553403848 c:\compiler\allegro-x86_64-w64-\include\allegro5\alcompat.h
+
+1607931911 c:\users\hp\desktop\tank_fantasy_rotation\tank.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\allegro_image.h
+	"allegro5/base.h"
+
+1607965863 source:c:\users\hp\desktop\tank_fantasy_rotation\control.c
+	"control.h"
+	"headers.h"
+
+1607965710 c:\users\hp\desktop\tank_fantasy_rotation\control.h
+	"tank.h"
+	"camera.h"
+
+1607875580 c:\users\hp\desktop\tank_fantasy_rotation\headers.h
+	<stdio.h>
+	<stdlib.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_image.h>
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\allegro_primitives.h
+	<allegro5/allegro.h>
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\allegro_native_dialog.h
+	"allegro5/allegro.h"
+
+1607965972 source:c:\users\hp\desktop\tank_fantasy_rotation\main.c
+	"camera.h"
+	"setting.h"
+	"control.h"
+	"test.h"
+
+1607875580 c:\users\hp\desktop\tank_fantasy_rotation\setting.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_image.h>
+
+1607884820 c:\users\hp\desktop\tank_fantasy_rotation\test.h
+	<allegro5/allegro.h>
+	<stdio.h>
+	<math.h>
+	"camera.h"
+
+1607923492 source:c:\users\hp\desktop\tank_fantasy_rotation\setting.c
+	"setting.h"
+
+1607875580 source:c:\users\hp\desktop\tank_fantasy_rotation\tank.c
+	"tank.h"
+	<stdio.h>
+
+1607923576 source:c:\users\hp\desktop\tank_fantasy_rotation\test.c
+	"test.h"
+	"camera.h"
+
+1608014025 source:c:\users\曾煥博\downloads\tank_fantasy_rotation(完成品吧)\tank_fantasy_rotation\camera.c
+	"camera.h"
+
+1608536144 c:\users\曾煥博\downloads\tank_fantasy_rotation(完成品吧)\tank_fantasy_rotation\camera.h
+	<allegro5/allegro.h>
+	"tank.h"
+	<stdio.h>
+
+1605779614 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\allegro.h
+	"allegro5/base.h"
+	"allegro5/altime.h"
+	"allegro5/bitmap.h"
+	"allegro5/bitmap_draw.h"
+	"allegro5/bitmap_io.h"
+	"allegro5/bitmap_lock.h"
+	"allegro5/blender.h"
+	"allegro5/clipboard.h"
+	"allegro5/color.h"
+	"allegro5/config.h"
+	"allegro5/cpu.h"
+	"allegro5/debug.h"
+	"allegro5/display.h"
+	"allegro5/drawing.h"
+	"allegro5/error.h"
+	"allegro5/events.h"
+	"allegro5/file.h"
+	"allegro5/fixed.h"
+	"allegro5/fmaths.h"
+	"allegro5/fshook.h"
+	"allegro5/fullscreen_mode.h"
+	"allegro5/haptic.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/memory.h"
+	"allegro5/monitor.h"
+	"allegro5/mouse.h"
+	"allegro5/mouse_cursor.h"
+	"allegro5/path.h"
+	"allegro5/render_state.h"
+	"allegro5/shader.h"
+	"allegro5/system.h"
+	"allegro5/threads.h"
+	"allegro5/timer.h"
+	"allegro5/tls.h"
+	"allegro5/touch_input.h"
+	"allegro5/transformations.h"
+	"allegro5/utf8.h"
+	"allegro5/alcompat.h"
+
+1605779615 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\base.h
+	<errno.h>
+	<limits.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<sys/types.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"allegro5/internal/alconfig.h"
+
+1605779616 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\internal\alconfig.h
+	"allegro5/platform/alplatf.h"
+	"allegro5/platform/alwatcom.h"
+	"allegro5/platform/almngw32.h"
+	"allegro5/platform/albcc32.h"
+	"allegro5/platform/almsvc.h"
+	"allegro5/platform/aliphonecfg.h"
+	"allegro5/platform/alosxcfg.h"
+	"allegro5/platform/alandroidcfg.h"
+	"allegro5/platform/alraspberrypicfg.h"
+	"allegro5/platform/alucfg.h"
+	"allegro5/platform/allegro_sdl_config.h"
+	"allegro5/platform/astdint.h"
+	"allegro5/platform/astdbool.h"
+
+1605779617 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\alplatf.h
+
+1605779617 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1605779616 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1605779616 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1605779616 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1605779616 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\aliphonecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1605779616 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\alosxcfg.h
+	"allegro5/platform/alplatf.h"
+
+1605779616 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\alandroidcfg.h
+
+1605779617 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\alraspberrypicfg.h
+	<fcntl.h>
+	<unistd.h>
+	<sys/types.h>
+
+1605779617 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"alunix.h"
+	"allegro5/platform/alplatf.h"
+
+1605779617 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\alunix.h
+
+1605779616 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\allegro_sdl_config.h
+	<fcntl.h>
+	<unistd.h>
+
+1605779617 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+	<limits.h>
+
+1605779617 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\astdbool.h
+	<stdbool.h>
+
+1605779615 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\altime.h
+	"allegro5/base.h"
+
+1605779615 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\bitmap.h
+	"allegro5/color.h"
+
+1605779615 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\color.h
+	"allegro5/base.h"
+
+1605779615 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\bitmap_draw.h
+	"allegro5/bitmap.h"
+
+1605779615 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\bitmap_io.h
+	"allegro5/bitmap.h"
+	"allegro5/file.h"
+
+1605779615 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\file.h
+	"allegro5/base.h"
+	"allegro5/path.h"
+	"allegro5/utf8.h"
+
+1605779616 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\path.h
+	"allegro5/base.h"
+	"allegro5/utf8.h"
+
+1605779616 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\utf8.h
+	"allegro5/base.h"
+
+1605779615 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\bitmap_lock.h
+	"allegro5/bitmap.h"
+
+1605779615 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\blender.h
+	"allegro5/base.h"
+	"allegro5/color.h"
+
+1605779615 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\clipboard.h
+	"allegro5/base.h"
+	"allegro5/display.h"
+	"allegro5/utf8.h"
+
+1605779615 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\display.h
+	"allegro5/bitmap.h"
+	"allegro5/color.h"
+	"allegro5/events.h"
+
+1605779615 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\events.h
+	"allegro5/altime.h"
+
+1605779615 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\config.h
+	"allegro5/file.h"
+
+1605779615 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\cpu.h
+	"allegro5/base.h"
+
+1605779615 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\debug.h
+	<assert.h>
+	"allegro5/base.h"
+
+1605779615 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\drawing.h
+	"allegro5/color.h"
+
+1605779615 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\error.h
+	"allegro5/base.h"
+
+1605779615 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\fixed.h
+	"allegro5/base.h"
+
+1605779615 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\fmaths.h
+	"allegro5/base.h"
+	"allegro5/fixed.h"
+	"allegro5/inline/fmaths.inl"
+
+1605779616 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\inline\fmaths.inl
+	"allegro5/error.h"
+
+1605779615 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\fshook.h
+	"allegro5/base.h"
+	"allegro5/file.h"
+	"allegro5/path.h"
+	<sys/types.h>
+
+1605779615 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\fullscreen_mode.h
+	"allegro5/base.h"
+
+1605779615 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\haptic.h
+	"allegro5/base.h"
+	"allegro5/display.h"
+	"allegro5/events.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/mouse.h"
+	"allegro5/touch_input.h"
+
+1605779615 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\joystick.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1605779615 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\keyboard.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+	"allegro5/keycodes.h"
+
+1605779615 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\keycodes.h
+
+1605779616 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\mouse.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1605779616 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\touch_input.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1605779616 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\memory.h
+	"allegro5/base.h"
+
+1605779616 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\monitor.h
+	"allegro5/base.h"
+
+1605779616 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\mouse_cursor.h
+	"allegro5/base.h"
+
+1605779616 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\render_state.h
+	"allegro5/base.h"
+
+1605779616 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\shader.h
+	"allegro5/base.h"
+	"allegro5/transformations.h"
+
+1605779616 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\transformations.h
+	"allegro5/display.h"
+
+1605779616 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\system.h
+	"allegro5/config.h"
+	"allegro5/path.h"
+
+1605779616 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\threads.h
+	"allegro5/altime.h"
+
+1605779616 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\timer.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1605779616 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\tls.h
+	"allegro5/base.h"
+
+1605779614 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\alcompat.h
+
+1608536208 c:\users\曾煥博\downloads\tank_fantasy_rotation(完成品吧)\tank_fantasy_rotation\tank.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+
+1605779614 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\allegro_image.h
+	"allegro5/base.h"
+
+1608014025 source:c:\users\曾煥博\downloads\tank_fantasy_rotation(完成品吧)\tank_fantasy_rotation\control.c
+	"control.h"
+	"headers.h"
+
+1608014025 c:\users\曾煥博\downloads\tank_fantasy_rotation(完成品吧)\tank_fantasy_rotation\control.h
+	"tank.h"
+	"camera.h"
+
+1608014025 c:\users\曾煥博\downloads\tank_fantasy_rotation(完成品吧)\tank_fantasy_rotation\headers.h
+	<stdio.h>
+	<stdlib.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_image.h>
+
+1605779615 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\allegro_primitives.h
+	<allegro5/allegro.h>
+
+1605779615 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\allegro_native_dialog.h
+	"allegro5/allegro.h"
+
+1608014025 source:c:\users\曾煥博\downloads\tank_fantasy_rotation(完成品吧)\tank_fantasy_rotation\setting.c
+	"setting.h"
+
+1608536186 c:\users\曾煥博\downloads\tank_fantasy_rotation(完成品吧)\tank_fantasy_rotation\setting.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_image.h>
+
+1608014025 source:c:\users\曾煥博\downloads\tank_fantasy_rotation(完成品吧)\tank_fantasy_rotation\tank.c
+	"tank.h"
+	<stdio.h>
+
+1608014025 source:c:\users\曾煥博\downloads\tank_fantasy_rotation(完成品吧)\tank_fantasy_rotation\test.c
+	"test.h"
+	"camera.h"
+
+1608014025 c:\users\曾煥博\downloads\tank_fantasy_rotation(完成品吧)\tank_fantasy_rotation\test.h
+	<allegro5/allegro.h>
+	<stdio.h>
+	<math.h>
+	"camera.h"
+
+1608880495 source:c:\users\曾煥博\downloads\tank_fantasy_rotation(完成品吧)\tank_fantasy_rotation\main.c
+	"camera.h"
+	"setting.h"
+	"control.h"
+	"test.h"
+	"mechanics.h"
+
+1608880137 c:\users\曾煥博\downloads\tank_fantasy_rotation(完成品吧)\tank_fantasy_rotation\mechanics.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+
+1608880137 source:c:\users\曾煥博\downloads\tank_fantasy_rotation(完成品吧)\tank_fantasy_rotation\mechanics.c
+	"headers.h"
+	"tank.h"
+	"mechanics.h"
+
+1608973647 source:c:\users\sylvex\onedrive\桌面\傷害變紅+扣血條\傷害變紅+扣血條\tank_fantasy_rotation\camera.c
+	"camera.h"
+
+1608972702 c:\users\sylvex\onedrive\桌面\傷害變紅+扣血條\傷害變紅+扣血條\tank_fantasy_rotation\camera.h
+	<allegro5/allegro.h>
+	"tank.h"
+	<stdio.h>
+
+1608972825 c:\users\sylvex\onedrive\桌面\傷害變紅+扣血條\傷害變紅+扣血條\tank_fantasy_rotation\tank.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<stdio.h>
+
+1608970431 source:c:\users\sylvex\onedrive\桌面\傷害變紅+扣血條\傷害變紅+扣血條\tank_fantasy_rotation\control.c
+	"control.h"
+
+1608965218 c:\users\sylvex\onedrive\桌面\傷害變紅+扣血條\傷害變紅+扣血條\tank_fantasy_rotation\control.h
+	"tank.h"
+	"camera.h"
+
+1608014026 c:\users\sylvex\onedrive\桌面\傷害變紅+扣血條\傷害變紅+扣血條\tank_fantasy_rotation\headers.h
+	<stdio.h>
+	<stdlib.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_image.h>
+
+1608981239 source:c:\users\sylvex\onedrive\桌面\傷害變紅+扣血條\傷害變紅+扣血條\tank_fantasy_rotation\main.c
+	"camera.h"
+	"setting.h"
+	"control.h"
+	"test.h"
+	"mechanics.h"
+	"draw.h"
+
+1608536188 c:\users\sylvex\onedrive\桌面\傷害變紅+扣血條\傷害變紅+扣血條\tank_fantasy_rotation\setting.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_image.h>
+
+1608900177 c:\users\sylvex\onedrive\桌面\傷害變紅+扣血條\傷害變紅+扣血條\tank_fantasy_rotation\test.h
+	<allegro5/allegro.h>
+	<stdio.h>
+	<math.h>
+	"camera.h"
+
+1608972783 c:\users\sylvex\onedrive\桌面\傷害變紅+扣血條\傷害變紅+扣血條\tank_fantasy_rotation\mechanics.h
+	"tank.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+
+1608981211 source:c:\users\sylvex\onedrive\桌面\傷害變紅+扣血條\傷害變紅+扣血條\tank_fantasy_rotation\mechanics.c
+	"mechanics.h"
+
+1608890522 source:c:\users\sylvex\onedrive\桌面\傷害變紅+扣血條\傷害變紅+扣血條\tank_fantasy_rotation\setting.c
+	"setting.h"
+
+1608972629 source:c:\users\sylvex\onedrive\桌面\傷害變紅+扣血條\傷害變紅+扣血條\tank_fantasy_rotation\tank.c
+	"tank.h"
+
+1608902940 source:c:\users\sylvex\onedrive\桌面\傷害變紅+扣血條\傷害變紅+扣血條\tank_fantasy_rotation\test.c
+	"test.h"
+	"camera.h"
+
+1553403848 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\allegro.h
+	"allegro5/base.h"
+	"allegro5/altime.h"
+	"allegro5/bitmap.h"
+	"allegro5/bitmap_draw.h"
+	"allegro5/bitmap_io.h"
+	"allegro5/bitmap_lock.h"
+	"allegro5/blender.h"
+	"allegro5/clipboard.h"
+	"allegro5/color.h"
+	"allegro5/config.h"
+	"allegro5/cpu.h"
+	"allegro5/debug.h"
+	"allegro5/display.h"
+	"allegro5/drawing.h"
+	"allegro5/error.h"
+	"allegro5/events.h"
+	"allegro5/file.h"
+	"allegro5/fixed.h"
+	"allegro5/fmaths.h"
+	"allegro5/fshook.h"
+	"allegro5/fullscreen_mode.h"
+	"allegro5/haptic.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/memory.h"
+	"allegro5/monitor.h"
+	"allegro5/mouse.h"
+	"allegro5/mouse_cursor.h"
+	"allegro5/path.h"
+	"allegro5/render_state.h"
+	"allegro5/shader.h"
+	"allegro5/system.h"
+	"allegro5/threads.h"
+	"allegro5/timer.h"
+	"allegro5/tls.h"
+	"allegro5/touch_input.h"
+	"allegro5/transformations.h"
+	"allegro5/utf8.h"
+	"allegro5/alcompat.h"
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\base.h
+	<errno.h>
+	<limits.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<sys/types.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"allegro5/internal/alconfig.h"
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\internal\alconfig.h
+	"allegro5/platform/alplatf.h"
+	"allegro5/platform/alwatcom.h"
+	"allegro5/platform/almngw32.h"
+	"allegro5/platform/albcc32.h"
+	"allegro5/platform/almsvc.h"
+	"allegro5/platform/aliphonecfg.h"
+	"allegro5/platform/alosxcfg.h"
+	"allegro5/platform/alandroidcfg.h"
+	"allegro5/platform/alraspberrypicfg.h"
+	"allegro5/platform/alucfg.h"
+	"allegro5/platform/allegro_sdl_config.h"
+	"allegro5/platform/astdint.h"
+	"allegro5/platform/astdbool.h"
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\alplatf.h
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\aliphonecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\alosxcfg.h
+	"allegro5/platform/alplatf.h"
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\alandroidcfg.h
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\alraspberrypicfg.h
+	<fcntl.h>
+	<unistd.h>
+	<sys/types.h>
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"alunix.h"
+	"allegro5/platform/alplatf.h"
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\alunix.h
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\allegro_sdl_config.h
+	<fcntl.h>
+	<unistd.h>
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+	<limits.h>
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\platform\astdbool.h
+	<stdbool.h>
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\altime.h
+	"allegro5/base.h"
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\bitmap.h
+	"allegro5/color.h"
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\color.h
+	"allegro5/base.h"
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\bitmap_draw.h
+	"allegro5/bitmap.h"
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\bitmap_io.h
+	"allegro5/bitmap.h"
+	"allegro5/file.h"
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\file.h
+	"allegro5/base.h"
+	"allegro5/path.h"
+	"allegro5/utf8.h"
+
+1553403848 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\path.h
+	"allegro5/base.h"
+	"allegro5/utf8.h"
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\utf8.h
+	"allegro5/base.h"
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\bitmap_lock.h
+	"allegro5/bitmap.h"
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\blender.h
+	"allegro5/base.h"
+	"allegro5/color.h"
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\clipboard.h
+	"allegro5/base.h"
+	"allegro5/display.h"
+	"allegro5/utf8.h"
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\display.h
+	"allegro5/bitmap.h"
+	"allegro5/color.h"
+	"allegro5/events.h"
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\events.h
+	"allegro5/altime.h"
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\config.h
+	"allegro5/file.h"
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\cpu.h
+	"allegro5/base.h"
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\debug.h
+	<assert.h>
+	"allegro5/base.h"
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\drawing.h
+	"allegro5/color.h"
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\error.h
+	"allegro5/base.h"
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\fixed.h
+	"allegro5/base.h"
+
+1553403848 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\fmaths.h
+	"allegro5/base.h"
+	"allegro5/fixed.h"
+	"allegro5/inline/fmaths.inl"
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\inline\fmaths.inl
+	"allegro5/error.h"
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\fshook.h
+	"allegro5/base.h"
+	"allegro5/file.h"
+	"allegro5/path.h"
+	<sys/types.h>
+
+1553403848 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\fullscreen_mode.h
+	"allegro5/base.h"
+
+1553403848 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\haptic.h
+	"allegro5/base.h"
+	"allegro5/display.h"
+	"allegro5/events.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/mouse.h"
+	"allegro5/touch_input.h"
+
+1553403848 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\joystick.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1553403848 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\keyboard.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+	"allegro5/keycodes.h"
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\keycodes.h
+
+1553403848 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\mouse.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1553403848 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\touch_input.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\memory.h
+	"allegro5/base.h"
+
+1553403848 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\monitor.h
+	"allegro5/base.h"
+
+1553403848 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\mouse_cursor.h
+	"allegro5/base.h"
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\render_state.h
+	"allegro5/base.h"
+
+1553403848 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\shader.h
+	"allegro5/base.h"
+	"allegro5/transformations.h"
+
+1553403848 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\transformations.h
+	"allegro5/display.h"
+
+1553403848 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\system.h
+	"allegro5/config.h"
+	"allegro5/path.h"
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\threads.h
+	"allegro5/altime.h"
+
+1553403848 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\timer.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1553403848 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\tls.h
+	"allegro5/base.h"
+
+1553403848 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\alcompat.h
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\allegro_image.h
+	"allegro5/base.h"
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\allegro_primitives.h
+	<allegro5/allegro.h>
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\allegro_native_dialog.h
+	"allegro5/allegro.h"
+
+1608974137 source:c:\users\sylvex\onedrive\桌面\傷害變紅+扣血條\傷害變紅+扣血條\tank_fantasy_rotation\draw.c
+	"draw.h"
+
+1608980232 c:\users\sylvex\onedrive\桌面\傷害變紅+扣血條\傷害變紅+扣血條\tank_fantasy_rotation\draw.h
+	"tank.h"
+
+1608995256 source:c:\users\sylvex\onedrive\桌面\12-26\傷害變紅+扣血條\tank_fantasy_rotation\camera.c
+	"camera.h"
+
+1609060058 c:\users\sylvex\onedrive\桌面\12-26\傷害變紅+扣血條\tank_fantasy_rotation\camera.h
+	<allegro5/allegro.h>
+	"tank.h"
+
+1609076124 c:\users\sylvex\onedrive\桌面\12-26\傷害變紅+扣血條\tank_fantasy_rotation\tank.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<stdio.h>
+
+1608995734 source:c:\users\sylvex\onedrive\桌面\12-26\傷害變紅+扣血條\tank_fantasy_rotation\control.c
+	"control.h"
+
+1609059554 c:\users\sylvex\onedrive\桌面\12-26\傷害變紅+扣血條\tank_fantasy_rotation\control.h
+	"tank.h"
+	"camera.h"
+
+1608995350 source:c:\users\sylvex\onedrive\桌面\12-26\傷害變紅+扣血條\tank_fantasy_rotation\draw.c
+	"draw.h"
+
+1609059951 c:\users\sylvex\onedrive\桌面\12-26\傷害變紅+扣血條\tank_fantasy_rotation\draw.h
+	"tank.h"
+	"obstacle.h"
+	"camera.h"
+	<allegro5/allegro_primitives.h>
+
+1609078210 source:c:\users\sylvex\onedrive\桌面\12-26\傷害變紅+扣血條\tank_fantasy_rotation\main.c
+	"camera.h"
+	"setting.h"
+	"control.h"
+	"test.h"
+	"mechanics.h"
+	"draw.h"
+	"level.h"
+
+1608536188 c:\users\sylvex\onedrive\桌面\12-26\傷害變紅+扣血條\tank_fantasy_rotation\setting.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_image.h>
+
+1608992650 c:\users\sylvex\onedrive\桌面\12-26\傷害變紅+扣血條\tank_fantasy_rotation\test.h
+	<allegro5/allegro.h>
+	<stdio.h>
+	<math.h>
+	"camera.h"
+
+1609059844 c:\users\sylvex\onedrive\桌面\12-26\傷害變紅+扣血條\tank_fantasy_rotation\mechanics.h
+	"tank.h"
+	"camera.h"
+	"obstacle.h"
+	<allegro5/allegro_primitives.h>
+
+1609060097 source:c:\users\sylvex\onedrive\桌面\12-26\傷害變紅+扣血條\tank_fantasy_rotation\mechanics.c
+	"mechanics.h"
+
+1608890522 source:c:\users\sylvex\onedrive\桌面\12-26\傷害變紅+扣血條\tank_fantasy_rotation\setting.c
+	"setting.h"
+
+1609076483 source:c:\users\sylvex\onedrive\桌面\12-26\傷害變紅+扣血條\tank_fantasy_rotation\tank.c
+	"tank.h"
+
+1608992650 source:c:\users\sylvex\onedrive\桌面\12-26\傷害變紅+扣血條\tank_fantasy_rotation\test.c
+	"test.h"
+	"camera.h"
+
+1609077203 source:c:\users\sylvex\onedrive\桌面\12-26\傷害變紅+扣血條\tank_fantasy_rotation\obstacle.c
+	"obstacle.h"
+
+1609077104 c:\users\sylvex\onedrive\桌面\12-26\傷害變紅+扣血條\tank_fantasy_rotation\obstacle.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+
+1609073812 source:c:\users\sylvex\onedrive\桌面\12-26\傷害變紅+扣血條\tank_fantasy_rotation\resource.c
+
+1609078081 source:c:\users\sylvex\onedrive\桌面\12-26\傷害變紅+扣血條\tank_fantasy_rotation\level.c
+	"level.h"
+
+1609078094 c:\users\sylvex\onedrive\桌面\12-26\傷害變紅+扣血條\tank_fantasy_rotation\level.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+
+1608995256 source:c:\users\sylvex\onedrive\桌面\12-26 - 複製\傷害變紅+扣血條\tank_fantasy_rotation\camera.c
+	"camera.h"
+
+1609060058 c:\users\sylvex\onedrive\桌面\12-26 - 複製\傷害變紅+扣血條\tank_fantasy_rotation\camera.h
+	<allegro5/allegro.h>
+	"tank.h"
+
+1609076124 c:\users\sylvex\onedrive\桌面\12-26 - 複製\傷害變紅+扣血條\tank_fantasy_rotation\tank.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<stdio.h>
+
+1608995734 source:c:\users\sylvex\onedrive\桌面\12-26 - 複製\傷害變紅+扣血條\tank_fantasy_rotation\control.c
+	"control.h"
+
+1609059554 c:\users\sylvex\onedrive\桌面\12-26 - 複製\傷害變紅+扣血條\tank_fantasy_rotation\control.h
+	"tank.h"
+	"camera.h"
+
+1608995350 source:c:\users\sylvex\onedrive\桌面\12-26 - 複製\傷害變紅+扣血條\tank_fantasy_rotation\draw.c
+	"draw.h"
+
+1609059951 c:\users\sylvex\onedrive\桌面\12-26 - 複製\傷害變紅+扣血條\tank_fantasy_rotation\draw.h
+	"tank.h"
+	"obstacle.h"
+	"camera.h"
+	<allegro5/allegro_primitives.h>
+
+1609077104 c:\users\sylvex\onedrive\桌面\12-26 - 複製\傷害變紅+扣血條\tank_fantasy_rotation\obstacle.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+
+1609078081 source:c:\users\sylvex\onedrive\桌面\12-26 - 複製\傷害變紅+扣血條\tank_fantasy_rotation\level.c
+	"level.h"
+
+1609082794 c:\users\sylvex\onedrive\桌面\12-26 - 複製\傷害變紅+扣血條\tank_fantasy_rotation\level.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+
+1609083008 source:c:\users\sylvex\onedrive\桌面\12-26 - 複製\傷害變紅+扣血條\tank_fantasy_rotation\main.c
+	"game_state.h"
+
+1608536188 c:\users\sylvex\onedrive\桌面\12-26 - 複製\傷害變紅+扣血條\tank_fantasy_rotation\setting.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_image.h>
+
+1608992650 c:\users\sylvex\onedrive\桌面\12-26 - 複製\傷害變紅+扣血條\tank_fantasy_rotation\test.h
+	<allegro5/allegro.h>
+	<stdio.h>
+	<math.h>
+	"camera.h"
+
+1609059844 c:\users\sylvex\onedrive\桌面\12-26 - 複製\傷害變紅+扣血條\tank_fantasy_rotation\mechanics.h
+	"tank.h"
+	"camera.h"
+	"obstacle.h"
+	<allegro5/allegro_primitives.h>
+
+1609060097 source:c:\users\sylvex\onedrive\桌面\12-26 - 複製\傷害變紅+扣血條\tank_fantasy_rotation\mechanics.c
+	"mechanics.h"
+
+1609077203 source:c:\users\sylvex\onedrive\桌面\12-26 - 複製\傷害變紅+扣血條\tank_fantasy_rotation\obstacle.c
+	"obstacle.h"
+
+1608890522 source:c:\users\sylvex\onedrive\桌面\12-26 - 複製\傷害變紅+扣血條\tank_fantasy_rotation\setting.c
+	"setting.h"
+
+1609076483 source:c:\users\sylvex\onedrive\桌面\12-26 - 複製\傷害變紅+扣血條\tank_fantasy_rotation\tank.c
+	"tank.h"
+
+1608992650 source:c:\users\sylvex\onedrive\桌面\12-26 - 複製\傷害變紅+扣血條\tank_fantasy_rotation\test.c
+	"test.h"
+	"camera.h"
+
+1609083063 source:c:\users\sylvex\onedrive\桌面\12-26 - 複製\傷害變紅+扣血條\tank_fantasy_rotation\game_state.c
+	"game_state.h"
+
+1609083063 c:\users\sylvex\onedrive\桌面\12-26 - 複製\傷害變紅+扣血條\tank_fantasy_rotation\game_state.h
+	"camera.h"
+	"setting.h"
+	"control.h"
+	"test.h"
+	"mechanics.h"
+	"draw.h"
+	"level.h"
+
+1608995256 source:c:\users\sylvex\onedrive\桌面\12-27\傷害變紅+扣血條\tank_fantasy_rotation\camera.c
+	"camera.h"
+
+1609060058 c:\users\sylvex\onedrive\桌面\12-27\傷害變紅+扣血條\tank_fantasy_rotation\camera.h
+	<allegro5/allegro.h>
+	"tank.h"
+
+1609076124 c:\users\sylvex\onedrive\桌面\12-27\傷害變紅+扣血條\tank_fantasy_rotation\tank.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<stdio.h>
+
+1608995734 source:c:\users\sylvex\onedrive\桌面\12-27\傷害變紅+扣血條\tank_fantasy_rotation\control.c
+	"control.h"
+
+1609059554 c:\users\sylvex\onedrive\桌面\12-27\傷害變紅+扣血條\tank_fantasy_rotation\control.h
+	"tank.h"
+	"camera.h"
+
+1608995350 source:c:\users\sylvex\onedrive\桌面\12-27\傷害變紅+扣血條\tank_fantasy_rotation\draw.c
+	"draw.h"
+
+1609059951 c:\users\sylvex\onedrive\桌面\12-27\傷害變紅+扣血條\tank_fantasy_rotation\draw.h
+	"tank.h"
+	"obstacle.h"
+	"camera.h"
+	<allegro5/allegro_primitives.h>
+
+1609077104 c:\users\sylvex\onedrive\桌面\12-27\傷害變紅+扣血條\tank_fantasy_rotation\obstacle.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+
+1609083063 source:c:\users\sylvex\onedrive\桌面\12-27\傷害變紅+扣血條\tank_fantasy_rotation\game_state.c
+	"game_state.h"
+
+1609083063 c:\users\sylvex\onedrive\桌面\12-27\傷害變紅+扣血條\tank_fantasy_rotation\game_state.h
+	"camera.h"
+	"setting.h"
+	"control.h"
+	"test.h"
+	"mechanics.h"
+	"draw.h"
+	"level.h"
+
+1608536188 c:\users\sylvex\onedrive\桌面\12-27\傷害變紅+扣血條\tank_fantasy_rotation\setting.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_image.h>
+
+1608992650 c:\users\sylvex\onedrive\桌面\12-27\傷害變紅+扣血條\tank_fantasy_rotation\test.h
+	<allegro5/allegro.h>
+	<stdio.h>
+	<math.h>
+	"camera.h"
+
+1609059844 c:\users\sylvex\onedrive\桌面\12-27\傷害變紅+扣血條\tank_fantasy_rotation\mechanics.h
+	"tank.h"
+	"camera.h"
+	"obstacle.h"
+	<allegro5/allegro_primitives.h>
+
+1609082794 c:\users\sylvex\onedrive\桌面\12-27\傷害變紅+扣血條\tank_fantasy_rotation\level.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+
+1609078081 source:c:\users\sylvex\onedrive\桌面\12-27\傷害變紅+扣血條\tank_fantasy_rotation\level.c
+	"level.h"
+
+1609083008 source:c:\users\sylvex\onedrive\桌面\12-27\傷害變紅+扣血條\tank_fantasy_rotation\main.c
+	"game_state.h"
+
+1609077203 source:c:\users\sylvex\onedrive\桌面\12-27\傷害變紅+扣血條\tank_fantasy_rotation\obstacle.c
+	"obstacle.h"
+
+1608890522 source:c:\users\sylvex\onedrive\桌面\12-27\傷害變紅+扣血條\tank_fantasy_rotation\setting.c
+	"setting.h"
+
+1609076483 source:c:\users\sylvex\onedrive\桌面\12-27\傷害變紅+扣血條\tank_fantasy_rotation\tank.c
+	"tank.h"
+
+1608992650 source:c:\users\sylvex\onedrive\桌面\12-27\傷害變紅+扣血條\tank_fantasy_rotation\test.c
+	"test.h"
+	"camera.h"
+
+1609143625 source:c:\users\sylvex\onedrive\桌面\12-27\傷害變紅+扣血條\tank_fantasy_rotation\mechanics.c
+	"mechanics.h"
+
+1609236273 source:c:\users\sylvex\onedrive\桌面\12-28\傷害變紅+扣血條\tank_fantasy_rotation\camera.c
+	"camera.h"
+
+1609149257 c:\users\sylvex\onedrive\桌面\12-28\傷害變紅+扣血條\tank_fantasy_rotation\camera.h
+	<allegro5/allegro.h>
+	"tank.h"
+
+1609240916 c:\users\sylvex\onedrive\桌面\12-28\傷害變紅+扣血條\tank_fantasy_rotation\tank.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<stdio.h>
+
+1609234042 source:c:\users\sylvex\onedrive\桌面\12-28\傷害變紅+扣血條\tank_fantasy_rotation\control.c
+	"control.h"
+
+1609235774 c:\users\sylvex\onedrive\桌面\12-28\傷害變紅+扣血條\tank_fantasy_rotation\control.h
+	"tank.h"
+	"camera.h"
+
+1609236661 source:c:\users\sylvex\onedrive\桌面\12-28\傷害變紅+扣血條\tank_fantasy_rotation\draw.c
+	"draw.h"
+
+1609174537 c:\users\sylvex\onedrive\桌面\12-28\傷害變紅+扣血條\tank_fantasy_rotation\draw.h
+	"tank.h"
+	"obstacle.h"
+	"camera.h"
+	<allegro5/allegro_primitives.h>
+
+1609077104 c:\users\sylvex\onedrive\桌面\12-28\傷害變紅+扣血條\tank_fantasy_rotation\obstacle.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+
+1609235930 source:c:\users\sylvex\onedrive\桌面\12-28\傷害變紅+扣血條\tank_fantasy_rotation\game_state.c
+	"game_state.h"
+
+1609083063 c:\users\sylvex\onedrive\桌面\12-28\傷害變紅+扣血條\tank_fantasy_rotation\game_state.h
+	"camera.h"
+	"setting.h"
+	"control.h"
+	"test.h"
+	"mechanics.h"
+	"draw.h"
+	"level.h"
+
+1609229523 c:\users\sylvex\onedrive\桌面\12-28\傷害變紅+扣血條\tank_fantasy_rotation\setting.h
+	<allegro5/allegro.h>
+
+1608992650 c:\users\sylvex\onedrive\桌面\12-28\傷害變紅+扣血條\tank_fantasy_rotation\test.h
+	<allegro5/allegro.h>
+	<stdio.h>
+	<math.h>
+	"camera.h"
+
+1609235774 c:\users\sylvex\onedrive\桌面\12-28\傷害變紅+扣血條\tank_fantasy_rotation\mechanics.h
+	"tank.h"
+	"camera.h"
+	"obstacle.h"
+	<allegro5/allegro_primitives.h>
+
+1609082794 c:\users\sylvex\onedrive\桌面\12-28\傷害變紅+扣血條\tank_fantasy_rotation\level.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+
+1609078081 source:c:\users\sylvex\onedrive\桌面\12-28\傷害變紅+扣血條\tank_fantasy_rotation\level.c
+	"level.h"
+
+1609083008 source:c:\users\sylvex\onedrive\桌面\12-28\傷害變紅+扣血條\tank_fantasy_rotation\main.c
+	"game_state.h"
+
+1609077203 source:c:\users\sylvex\onedrive\桌面\12-28\傷害變紅+扣血條\tank_fantasy_rotation\obstacle.c
+	"obstacle.h"
+
+1609229577 source:c:\users\sylvex\onedrive\桌面\12-28\傷害變紅+扣血條\tank_fantasy_rotation\setting.c
+	"setting.h"
+
+1609241101 source:c:\users\sylvex\onedrive\桌面\12-28\傷害變紅+扣血條\tank_fantasy_rotation\tank.c
+	"tank.h"
+
+1608992650 source:c:\users\sylvex\onedrive\桌面\12-28\傷害變紅+扣血條\tank_fantasy_rotation\test.c
+	"test.h"
+	"camera.h"
+
+1609236573 source:c:\users\sylvex\onedrive\桌面\12-28\傷害變紅+扣血條\tank_fantasy_rotation\mechanics.c
+	"mechanics.h"
+
+1609236273 source:c:\users\sylvex\onedrive\桌面\12-29\傷害變紅+扣血條\tank_fantasy_rotation\camera.c
+	"camera.h"
+
+1609149257 c:\users\sylvex\onedrive\桌面\12-29\傷害變紅+扣血條\tank_fantasy_rotation\camera.h
+	<allegro5/allegro.h>
+	"tank.h"
+
+1609695033 c:\users\sylvex\onedrive\桌面\12-29\傷害變紅+扣血條\tank_fantasy_rotation\tank.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<stdio.h>
+
+1609690337 source:c:\users\sylvex\onedrive\桌面\12-29\傷害變紅+扣血條\tank_fantasy_rotation\control.c
+	"control.h"
+
+1609690337 c:\users\sylvex\onedrive\桌面\12-29\傷害變紅+扣血條\tank_fantasy_rotation\control.h
+	"tank.h"
+	"camera.h"
+	"level.h"
+
+1609698023 source:c:\users\sylvex\onedrive\桌面\12-29\傷害變紅+扣血條\tank_fantasy_rotation\draw.c
+	"draw.h"
+
+1609698023 c:\users\sylvex\onedrive\桌面\12-29\傷害變紅+扣血條\tank_fantasy_rotation\draw.h
+	"tank.h"
+	"obstacle.h"
+	"camera.h"
+	"level.h"
+	<allegro5/allegro_primitives.h>
+
+1609077104 c:\users\sylvex\onedrive\桌面\12-29\傷害變紅+扣血條\tank_fantasy_rotation\obstacle.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+
+1609698023 source:c:\users\sylvex\onedrive\桌面\12-29\傷害變紅+扣血條\tank_fantasy_rotation\game_state.c
+	"game_state.h"
+
+1609679734 c:\users\sylvex\onedrive\桌面\12-29\傷害變紅+扣血條\tank_fantasy_rotation\game_state.h
+	"camera.h"
+	"setting.h"
+	"control.h"
+	"mechanics.h"
+	"draw.h"
+	"level.h"
+
+1609229523 c:\users\sylvex\onedrive\桌面\12-29\傷害變紅+扣血條\tank_fantasy_rotation\setting.h
+	<allegro5/allegro.h>
+
+1608992650 c:\users\sylvex\onedrive\桌面\12-29\傷害變紅+扣血條\tank_fantasy_rotation\test.h
+	<allegro5/allegro.h>
+	<stdio.h>
+	<math.h>
+	"camera.h"
+
+1609697550 c:\users\sylvex\onedrive\桌面\12-29\傷害變紅+扣血條\tank_fantasy_rotation\mechanics.h
+	"tank.h"
+	"camera.h"
+	"obstacle.h"
+	<allegro5/allegro_primitives.h>
+
+1609691432 c:\users\sylvex\onedrive\桌面\12-29\傷害變紅+扣血條\tank_fantasy_rotation\level.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+
+1609691438 source:c:\users\sylvex\onedrive\桌面\12-29\傷害變紅+扣血條\tank_fantasy_rotation\level.c
+	"level.h"
+
+1609686207 source:c:\users\sylvex\onedrive\桌面\12-29\傷害變紅+扣血條\tank_fantasy_rotation\main.c
+	"game_state.h"
+
+1609697790 source:c:\users\sylvex\onedrive\桌面\12-29\傷害變紅+扣血條\tank_fantasy_rotation\mechanics.c
+	"mechanics.h"
+
+1609603684 source:c:\users\sylvex\onedrive\桌面\12-29\傷害變紅+扣血條\tank_fantasy_rotation\obstacle.c
+	"obstacle.h"
+
+1609229577 source:c:\users\sylvex\onedrive\桌面\12-29\傷害變紅+扣血條\tank_fantasy_rotation\setting.c
+	"setting.h"
+
+1609698143 source:c:\users\sylvex\onedrive\桌面\12-29\傷害變紅+扣血條\tank_fantasy_rotation\tank.c
+	"tank.h"
+
+1608992650 source:c:\users\sylvex\onedrive\桌面\12-29\傷害變紅+扣血條\tank_fantasy_rotation\test.c
+	"test.h"
+	"camera.h"
+
+1609701621 source:c:\users\sylvex\onedrive\桌面\1-4\傷害變紅+扣血條\tank_fantasy_rotation\camera.c
+	"camera.h"
+
+1609149257 c:\users\sylvex\onedrive\桌面\1-4\傷害變紅+扣血條\tank_fantasy_rotation\camera.h
+	<allegro5/allegro.h>
+	"tank.h"
+
+1609700326 c:\users\sylvex\onedrive\桌面\1-4\傷害變紅+扣血條\tank_fantasy_rotation\tank.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<stdio.h>
+
+1609690337 source:c:\users\sylvex\onedrive\桌面\1-4\傷害變紅+扣血條\tank_fantasy_rotation\control.c
+	"control.h"
+
+1609690337 c:\users\sylvex\onedrive\桌面\1-4\傷害變紅+扣血條\tank_fantasy_rotation\control.h
+	"tank.h"
+	"camera.h"
+	"level.h"
+
+1609700691 c:\users\sylvex\onedrive\桌面\1-4\傷害變紅+扣血條\tank_fantasy_rotation\level.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+
+1609698023 source:c:\users\sylvex\onedrive\桌面\1-4\傷害變紅+扣血條\tank_fantasy_rotation\draw.c
+	"draw.h"
+
+1609698023 c:\users\sylvex\onedrive\桌面\1-4\傷害變紅+扣血條\tank_fantasy_rotation\draw.h
+	"tank.h"
+	"obstacle.h"
+	"camera.h"
+	"level.h"
+	<allegro5/allegro_primitives.h>
+
+1609077104 c:\users\sylvex\onedrive\桌面\1-4\傷害變紅+扣血條\tank_fantasy_rotation\obstacle.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+
+1609705332 source:c:\users\sylvex\onedrive\桌面\1-4\傷害變紅+扣血條\tank_fantasy_rotation\game_state.c
+	"game_state.h"
+
+1609700326 c:\users\sylvex\onedrive\桌面\1-4\傷害變紅+扣血條\tank_fantasy_rotation\game_state.h
+	"camera.h"
+	"setting.h"
+	"control.h"
+	"mechanics.h"
+	"draw.h"
+	"level.h"
+
+1609229523 c:\users\sylvex\onedrive\桌面\1-4\傷害變紅+扣血條\tank_fantasy_rotation\setting.h
+	<allegro5/allegro.h>
+
+1609697550 c:\users\sylvex\onedrive\桌面\1-4\傷害變紅+扣血條\tank_fantasy_rotation\mechanics.h
+	"tank.h"
+	"camera.h"
+	"obstacle.h"
+	<allegro5/allegro_primitives.h>
+
+1609700667 source:c:\users\sylvex\onedrive\桌面\1-4\傷害變紅+扣血條\tank_fantasy_rotation\level.c
+	"level.h"
+
+1609686207 source:c:\users\sylvex\onedrive\桌面\1-4\傷害變紅+扣血條\tank_fantasy_rotation\main.c
+	"game_state.h"
+
+1609697790 source:c:\users\sylvex\onedrive\桌面\1-4\傷害變紅+扣血條\tank_fantasy_rotation\mechanics.c
+	"mechanics.h"
+
+1609603684 source:c:\users\sylvex\onedrive\桌面\1-4\傷害變紅+扣血條\tank_fantasy_rotation\obstacle.c
+	"obstacle.h"
+
+1609229577 source:c:\users\sylvex\onedrive\桌面\1-4\傷害變紅+扣血條\tank_fantasy_rotation\setting.c
+	"setting.h"
+
+1609700326 source:c:\users\sylvex\onedrive\桌面\1-4\傷害變紅+扣血條\tank_fantasy_rotation\tank.c
+	"tank.h"
+
+1608992650 source:c:\users\sylvex\onedrive\桌面\1-4\傷害變紅+扣血條\tank_fantasy_rotation\test.c
+	"test.h"
+	"camera.h"
+
+1608992650 c:\users\sylvex\onedrive\桌面\1-4\傷害變紅+扣血條\tank_fantasy_rotation\test.h
+	<allegro5/allegro.h>
+	<stdio.h>
+	<math.h>
+	"camera.h"
+
+1609701621 source:c:\users\sylvex\onedrive\桌面\整理\傷害變紅+扣血條\tank_fantasy_rotation\camera.c
+	"camera.h"
+
+1609869385 c:\users\sylvex\onedrive\桌面\整理\傷害變紅+扣血條\tank_fantasy_rotation\camera.h
+	<allegro5/allegro.h>
+	"tank.h"
+
+1610680658 c:\users\sylvex\onedrive\桌面\整理\傷害變紅+扣血條\tank_fantasy_rotation\tank.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<stdio.h>
+	"obstacle.h"
+
+1610743002 source:c:\users\sylvex\onedrive\桌面\整理\傷害變紅+扣血條\tank_fantasy_rotation\control.c
+	"control.h"
+
+1609869759 c:\users\sylvex\onedrive\桌面\整理\傷害變紅+扣血條\tank_fantasy_rotation\control.h
+	"tank.h"
+	"camera.h"
+	"level.h"
+	"math.h"
+
+1610684071 c:\users\sylvex\onedrive\桌面\整理\傷害變紅+扣血條\tank_fantasy_rotation\level.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+
+1610743164 source:c:\users\sylvex\onedrive\桌面\整理\傷害變紅+扣血條\tank_fantasy_rotation\draw.c
+	"draw.h"
+
+1610706731 c:\users\sylvex\onedrive\桌面\整理\傷害變紅+扣血條\tank_fantasy_rotation\draw.h
+	"tank.h"
+	"obstacle.h"
+	"camera.h"
+	"level.h"
+	"enemy.h"
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_color.h>
+
+1610707763 c:\users\sylvex\onedrive\桌面\整理\傷害變紅+扣血條\tank_fantasy_rotation\obstacle.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+
+1610684183 source:c:\users\sylvex\onedrive\桌面\整理\傷害變紅+扣血條\tank_fantasy_rotation\level.c
+	"level.h"
+
+1610702589 source:c:\users\sylvex\onedrive\桌面\整理\傷害變紅+扣血條\tank_fantasy_rotation\main.c
+	"game_state.h"
+
+1610737887 c:\users\sylvex\onedrive\桌面\整理\傷害變紅+扣血條\tank_fantasy_rotation\game_state.h
+	"camera.h"
+	"setting.h"
+	"control.h"
+	"mechanics.h"
+	"draw.h"
+	"level.h"
+	"enemy.h"
+	"collision.h"
+	<time.h>
+	<stdlib.h>
+
+1609229523 c:\users\sylvex\onedrive\桌面\整理\傷害變紅+扣血條\tank_fantasy_rotation\setting.h
+	<allegro5/allegro.h>
+
+1609869596 c:\users\sylvex\onedrive\桌面\整理\傷害變紅+扣血條\tank_fantasy_rotation\mechanics.h
+	"tank.h"
+	"obstacle.h"
+	<allegro5/allegro_primitives.h>
+
+1609869064 source:c:\users\sylvex\onedrive\桌面\整理\傷害變紅+扣血條\tank_fantasy_rotation\mechanics.c
+	"mechanics.h"
+
+1610710038 source:c:\users\sylvex\onedrive\桌面\整理\傷害變紅+扣血條\tank_fantasy_rotation\obstacle.c
+	"obstacle.h"
+
+1610706732 source:c:\users\sylvex\onedrive\桌面\整理\傷害變紅+扣血條\tank_fantasy_rotation\setting.c
+	"setting.h"
+
+1610743002 source:c:\users\sylvex\onedrive\桌面\整理\傷害變紅+扣血條\tank_fantasy_rotation\tank.c
+	"tank.h"
+
+1608992650 source:c:\users\sylvex\onedrive\桌面\整理\傷害變紅+扣血條\tank_fantasy_rotation\test.c
+	"test.h"
+	"camera.h"
+
+1609869131 c:\users\sylvex\onedrive\桌面\整理\傷害變紅+扣血條\tank_fantasy_rotation\test.h
+	<allegro5/allegro.h>
+	<stdio.h>
+	<math.h>
+
+1610765876 source:c:\users\sylvex\onedrive\桌面\整理\傷害變紅+扣血條\tank_fantasy_rotation\game_state.c
+	"game_state.h"
+
+1610765980 source:c:\users\sylvex\onedrive\桌面\整理\傷害變紅+扣血條\tank_fantasy_rotation\collision.c
+	"collision.h"
+
+1610710804 c:\users\sylvex\onedrive\桌面\整理\傷害變紅+扣血條\tank_fantasy_rotation\collision.h
+	"tank.h"
+	"obstacle.h"
+	"enemy.h"
+
+1610765876 source:c:\users\sylvex\onedrive\桌面\整理\傷害變紅+扣血條\tank_fantasy_rotation\enemy.c
+	"enemy.h"
+
+1610743460 c:\users\sylvex\onedrive\桌面\整理\傷害變紅+扣血條\tank_fantasy_rotation\enemy.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	"tank.h"
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\allegro_color.h
+	"allegro5/allegro.h"
+
+1609701621 source:c:\users\sylvex\onedrive\桌面\整理1-16\傷害變紅+扣血條\tank_fantasy_rotation\camera.c
+	"camera.h"
+
+1609869385 c:\users\sylvex\onedrive\桌面\整理1-16\傷害變紅+扣血條\tank_fantasy_rotation\camera.h
+	<allegro5/allegro.h>
+	"tank.h"
+
+1610880816 c:\users\sylvex\onedrive\桌面\整理1-16\傷害變紅+扣血條\tank_fantasy_rotation\tank.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<stdio.h>
+	"obstacle.h"
+
+1610867870 c:\users\sylvex\onedrive\桌面\整理1-16\傷害變紅+扣血條\tank_fantasy_rotation\obstacle.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+
+1610880543 source:c:\users\sylvex\onedrive\桌面\整理1-16\傷害變紅+扣血條\tank_fantasy_rotation\collision.c
+	"collision.h"
+
+1610863128 c:\users\sylvex\onedrive\桌面\整理1-16\傷害變紅+扣血條\tank_fantasy_rotation\collision.h
+	"tank.h"
+	"obstacle.h"
+	"enemy.h"
+	"firebar.h"
+
+1610743460 c:\users\sylvex\onedrive\桌面\整理1-16\傷害變紅+扣血條\tank_fantasy_rotation\enemy.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	"tank.h"
+
+1610743002 source:c:\users\sylvex\onedrive\桌面\整理1-16\傷害變紅+扣血條\tank_fantasy_rotation\control.c
+	"control.h"
+
+1609869759 c:\users\sylvex\onedrive\桌面\整理1-16\傷害變紅+扣血條\tank_fantasy_rotation\control.h
+	"tank.h"
+	"camera.h"
+	"level.h"
+	"math.h"
+
+1610684071 c:\users\sylvex\onedrive\桌面\整理1-16\傷害變紅+扣血條\tank_fantasy_rotation\level.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+
+1610881003 source:c:\users\sylvex\onedrive\桌面\整理1-16\傷害變紅+扣血條\tank_fantasy_rotation\draw.c
+	"draw.h"
+
+1610861729 c:\users\sylvex\onedrive\桌面\整理1-16\傷害變紅+扣血條\tank_fantasy_rotation\draw.h
+	"tank.h"
+	"obstacle.h"
+	"camera.h"
+	"level.h"
+	"enemy.h"
+	"firebar.h"
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_color.h>
+
+1610870823 source:c:\users\sylvex\onedrive\桌面\整理1-16\傷害變紅+扣血條\tank_fantasy_rotation\enemy.c
+	"enemy.h"
+
+1610870464 source:c:\users\sylvex\onedrive\桌面\整理1-16\傷害變紅+扣血條\tank_fantasy_rotation\game_state.c
+	"game_state.h"
+
+1610861006 c:\users\sylvex\onedrive\桌面\整理1-16\傷害變紅+扣血條\tank_fantasy_rotation\game_state.h
+	"camera.h"
+	"setting.h"
+	"control.h"
+	"mechanics.h"
+	"draw.h"
+	"level.h"
+	"enemy.h"
+	"collision.h"
+	"tank.h"
+	"firebar.h"
+	<time.h>
+	<stdlib.h>
+
+1609229523 c:\users\sylvex\onedrive\桌面\整理1-16\傷害變紅+扣血條\tank_fantasy_rotation\setting.h
+	<allegro5/allegro.h>
+
+1609869596 c:\users\sylvex\onedrive\桌面\整理1-16\傷害變紅+扣血條\tank_fantasy_rotation\mechanics.h
+	"tank.h"
+	"obstacle.h"
+	<allegro5/allegro_primitives.h>
+
+1610684183 source:c:\users\sylvex\onedrive\桌面\整理1-16\傷害變紅+扣血條\tank_fantasy_rotation\level.c
+	"level.h"
+
+1610799222 source:c:\users\sylvex\onedrive\桌面\整理1-16\傷害變紅+扣血條\tank_fantasy_rotation\main.c
+	"game_state.h"
+
+1609869064 source:c:\users\sylvex\onedrive\桌面\整理1-16\傷害變紅+扣血條\tank_fantasy_rotation\mechanics.c
+	"mechanics.h"
+
+1610869744 source:c:\users\sylvex\onedrive\桌面\整理1-16\傷害變紅+扣血條\tank_fantasy_rotation\obstacle.c
+	"obstacle.h"
+
+1610706732 source:c:\users\sylvex\onedrive\桌面\整理1-16\傷害變紅+扣血條\tank_fantasy_rotation\setting.c
+	"setting.h"
+
+1610880816 source:c:\users\sylvex\onedrive\桌面\整理1-16\傷害變紅+扣血條\tank_fantasy_rotation\tank.c
+	"tank.h"
+
+1608992650 source:c:\users\sylvex\onedrive\桌面\整理1-16\傷害變紅+扣血條\tank_fantasy_rotation\test.c
+	"test.h"
+	"camera.h"
+
+1609869131 c:\users\sylvex\onedrive\桌面\整理1-16\傷害變紅+扣血條\tank_fantasy_rotation\test.h
+	<allegro5/allegro.h>
+	<stdio.h>
+	<math.h>
+
+1610864727 source:c:\users\sylvex\onedrive\桌面\整理1-16\傷害變紅+扣血條\tank_fantasy_rotation\firebar.c
+	"firebar.h"
+
+1610864560 c:\users\sylvex\onedrive\桌面\整理1-16\傷害變紅+扣血條\tank_fantasy_rotation\firebar.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_image.h>
+	<math.h>
+	"tank.h"
+
+1610888148 source:c:\users\sylvex\onedrive\桌面\整理1-17\傷害變紅+扣血條\tank_fantasy_rotation\camera.c
+	"camera.h"
+
+1610888148 c:\users\sylvex\onedrive\桌面\整理1-17\傷害變紅+扣血條\tank_fantasy_rotation\camera.h
+	<allegro5/allegro.h>
+	"tank.h"
+
+1610918811 c:\users\sylvex\onedrive\桌面\整理1-17\傷害變紅+扣血條\tank_fantasy_rotation\tank.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	"obstacle.h"
+
+1610867870 c:\users\sylvex\onedrive\桌面\整理1-17\傷害變紅+扣血條\tank_fantasy_rotation\obstacle.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+
+1610914221 source:c:\users\sylvex\onedrive\桌面\整理1-17\傷害變紅+扣血條\tank_fantasy_rotation\collision.c
+	"collision.h"
+
+1610909037 c:\users\sylvex\onedrive\桌面\整理1-17\傷害變紅+扣血條\tank_fantasy_rotation\collision.h
+	"tank.h"
+	"obstacle.h"
+	"enemy.h"
+	"firebar.h"
+	"boss.h"
+
+1610917705 c:\users\sylvex\onedrive\桌面\整理1-17\傷害變紅+扣血條\tank_fantasy_rotation\enemy.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	"tank.h"
+
+1610864560 c:\users\sylvex\onedrive\桌面\整理1-17\傷害變紅+扣血條\tank_fantasy_rotation\firebar.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_image.h>
+	<math.h>
+	"tank.h"
+
+1610905952 source:c:\users\sylvex\onedrive\桌面\整理1-17\傷害變紅+扣血條\tank_fantasy_rotation\control.c
+	"control.h"
+
+1610905952 c:\users\sylvex\onedrive\桌面\整理1-17\傷害變紅+扣血條\tank_fantasy_rotation\control.h
+	"tank.h"
+	"camera.h"
+	"level.h"
+	"math.h"
+
+1610906454 c:\users\sylvex\onedrive\桌面\整理1-17\傷害變紅+扣血條\tank_fantasy_rotation\level.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1610918269 source:c:\users\sylvex\onedrive\桌面\整理1-17\傷害變紅+扣血條\tank_fantasy_rotation\draw.c
+	"draw.h"
+
+1610918269 c:\users\sylvex\onedrive\桌面\整理1-17\傷害變紅+扣血條\tank_fantasy_rotation\draw.h
+	"tank.h"
+	"obstacle.h"
+	"camera.h"
+	"level.h"
+	"enemy.h"
+	"firebar.h"
+	"boss.h"
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_color.h>
+
+1610917837 source:c:\users\sylvex\onedrive\桌面\整理1-17\傷害變紅+扣血條\tank_fantasy_rotation\enemy.c
+	"enemy.h"
+
+1610864727 source:c:\users\sylvex\onedrive\桌面\整理1-17\傷害變紅+扣血條\tank_fantasy_rotation\firebar.c
+	"firebar.h"
+
+1610914686 source:c:\users\sylvex\onedrive\桌面\整理1-17\傷害變紅+扣血條\tank_fantasy_rotation\level.c
+	"level.h"
+
+1609869064 source:c:\users\sylvex\onedrive\桌面\整理1-17\傷害變紅+扣血條\tank_fantasy_rotation\mechanics.c
+	"mechanics.h"
+
+1609869596 c:\users\sylvex\onedrive\桌面\整理1-17\傷害變紅+扣血條\tank_fantasy_rotation\mechanics.h
+	"tank.h"
+	"obstacle.h"
+	<allegro5/allegro_primitives.h>
+
+1610909037 source:c:\users\sylvex\onedrive\桌面\整理1-17\傷害變紅+扣血條\tank_fantasy_rotation\obstacle.c
+	"obstacle.h"
+
+1610903627 source:c:\users\sylvex\onedrive\桌面\整理1-17\傷害變紅+扣血條\tank_fantasy_rotation\setting.c
+	"setting.h"
+
+1610885726 c:\users\sylvex\onedrive\桌面\整理1-17\傷害變紅+扣血條\tank_fantasy_rotation\setting.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+
+1610909578 source:c:\users\sylvex\onedrive\桌面\整理1-17\傷害變紅+扣血條\tank_fantasy_rotation\tank.c
+	"tank.h"
+
+1608992650 source:c:\users\sylvex\onedrive\桌面\整理1-17\傷害變紅+扣血條\tank_fantasy_rotation\test.c
+	"test.h"
+	"camera.h"
+
+1610918811 c:\users\sylvex\onedrive\桌面\整理1-17\傷害變紅+扣血條\tank_fantasy_rotation\test.h
+	<allegro5/allegro.h>
+	<math.h>
+
+1610883552 source:c:\users\sylvex\onedrive\桌面\整理1-17\傷害變紅+扣血條\tank_fantasy_rotation\main.c
+	"game_state.h"
+
+1610885726 c:\users\sylvex\onedrive\桌面\整理1-17\傷害變紅+扣血條\tank_fantasy_rotation\game_state.h
+	"camera.h"
+	"setting.h"
+	"control.h"
+	"mechanics.h"
+	"draw.h"
+	"level.h"
+	"enemy.h"
+	"collision.h"
+	"tank.h"
+	"firebar.h"
+	"save.h"
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	<allegro5/allegro_native_dialog.h>
+
+1610920446 source:c:\users\sylvex\onedrive\桌面\整理1-17\傷害變紅+扣血條\tank_fantasy_rotation\game_state.c
+	"game_state.h"
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\allegro_font.h
+	"allegro5/allegro.h"
+
+1553403848 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\allegro_ttf.h
+	"allegro5/allegro.h"
+	"allegro5/allegro_font.h"
+
+1610885953 c:\users\sylvex\onedrive\桌面\整理1-17\傷害變紅+扣血條\tank_fantasy_rotation\save.h
+	<string.h>
+	"game_state.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_native_dialog.h>
+
+1610890821 source:c:\users\sylvex\onedrive\桌面\整理1-17\傷害變紅+扣血條\tank_fantasy_rotation\save.c
+	"save.h"
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\allegro_audio.h
+	"allegro5/allegro.h"
+
+1553403849 c:\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\allegro_acodec.h
+	"allegro5/allegro.h"
+	"allegro5/allegro_audio.h"
+
+1610919293 c:\users\sylvex\onedrive\桌面\整理1-17\傷害變紅+扣血條\tank_fantasy_rotation\boss.h
+	"tank.h"
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_native_dialog.h>
+
+1610919607 source:c:\users\sylvex\onedrive\桌面\整理1-17\傷害變紅+扣血條\tank_fantasy_rotation\boss.c
+	"boss.h"
+
+1610919607 source:c:\users\sylvex\onedrive\桌面\完成品\傷害變紅+扣血條\tank_fantasy_rotation\boss.c
+	"boss.h"
+
+1610919293 c:\users\sylvex\onedrive\桌面\完成品\傷害變紅+扣血條\tank_fantasy_rotation\boss.h
+	"tank.h"
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_native_dialog.h>
+
+1610918811 c:\users\sylvex\onedrive\桌面\完成品\傷害變紅+扣血條\tank_fantasy_rotation\tank.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	"obstacle.h"
+
+1610867870 c:\users\sylvex\onedrive\桌面\完成品\傷害變紅+扣血條\tank_fantasy_rotation\obstacle.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+
+1610888148 source:c:\users\sylvex\onedrive\桌面\完成品\傷害變紅+扣血條\tank_fantasy_rotation\camera.c
+	"camera.h"
+
+1610888148 c:\users\sylvex\onedrive\桌面\完成品\傷害變紅+扣血條\tank_fantasy_rotation\camera.h
+	<allegro5/allegro.h>
+	"tank.h"
+
+1610914221 source:c:\users\sylvex\onedrive\桌面\完成品\傷害變紅+扣血條\tank_fantasy_rotation\collision.c
+	"collision.h"
+
+1610909037 c:\users\sylvex\onedrive\桌面\完成品\傷害變紅+扣血條\tank_fantasy_rotation\collision.h
+	"tank.h"
+	"obstacle.h"
+	"enemy.h"
+	"firebar.h"
+	"boss.h"
+
+1610917705 c:\users\sylvex\onedrive\桌面\完成品\傷害變紅+扣血條\tank_fantasy_rotation\enemy.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	"tank.h"
+
+1610864560 c:\users\sylvex\onedrive\桌面\完成品\傷害變紅+扣血條\tank_fantasy_rotation\firebar.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_image.h>
+	<math.h>
+	"tank.h"
+
+1610905952 source:c:\users\sylvex\onedrive\桌面\完成品\傷害變紅+扣血條\tank_fantasy_rotation\control.c
+	"control.h"
+
+1610905952 c:\users\sylvex\onedrive\桌面\完成品\傷害變紅+扣血條\tank_fantasy_rotation\control.h
+	"tank.h"
+	"camera.h"
+	"level.h"
+	"math.h"
+
+1610906454 c:\users\sylvex\onedrive\桌面\完成品\傷害變紅+扣血條\tank_fantasy_rotation\level.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1610918269 source:c:\users\sylvex\onedrive\桌面\完成品\傷害變紅+扣血條\tank_fantasy_rotation\draw.c
+	"draw.h"
+
+1610918269 c:\users\sylvex\onedrive\桌面\完成品\傷害變紅+扣血條\tank_fantasy_rotation\draw.h
+	"tank.h"
+	"obstacle.h"
+	"camera.h"
+	"level.h"
+	"enemy.h"
+	"firebar.h"
+	"boss.h"
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_color.h>
+
+1610917837 source:c:\users\sylvex\onedrive\桌面\完成品\傷害變紅+扣血條\tank_fantasy_rotation\enemy.c
+	"enemy.h"
+
+1610864727 source:c:\users\sylvex\onedrive\桌面\完成品\傷害變紅+扣血條\tank_fantasy_rotation\firebar.c
+	"firebar.h"
+
+1610920446 source:c:\users\sylvex\onedrive\桌面\完成品\傷害變紅+扣血條\tank_fantasy_rotation\game_state.c
+	"game_state.h"
+
+1610885726 c:\users\sylvex\onedrive\桌面\完成品\傷害變紅+扣血條\tank_fantasy_rotation\game_state.h
+	"camera.h"
+	"setting.h"
+	"control.h"
+	"mechanics.h"
+	"draw.h"
+	"level.h"
+	"enemy.h"
+	"collision.h"
+	"tank.h"
+	"firebar.h"
+	"save.h"
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	<allegro5/allegro_native_dialog.h>
+
+1610885726 c:\users\sylvex\onedrive\桌面\完成品\傷害變紅+扣血條\tank_fantasy_rotation\setting.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+
+1609869596 c:\users\sylvex\onedrive\桌面\完成品\傷害變紅+扣血條\tank_fantasy_rotation\mechanics.h
+	"tank.h"
+	"obstacle.h"
+	<allegro5/allegro_primitives.h>
+
+1610885953 c:\users\sylvex\onedrive\桌面\完成品\傷害變紅+扣血條\tank_fantasy_rotation\save.h
+	<string.h>
+	"game_state.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_native_dialog.h>
+
+1610914686 source:c:\users\sylvex\onedrive\桌面\完成品\傷害變紅+扣血條\tank_fantasy_rotation\level.c
+	"level.h"
+
+1610883552 source:c:\users\sylvex\onedrive\桌面\完成品\傷害變紅+扣血條\tank_fantasy_rotation\main.c
+	"game_state.h"
+
+1610909037 source:c:\users\sylvex\onedrive\桌面\完成品\傷害變紅+扣血條\tank_fantasy_rotation\obstacle.c
+	"obstacle.h"
+
+1610890821 source:c:\users\sylvex\onedrive\桌面\完成品\傷害變紅+扣血條\tank_fantasy_rotation\save.c
+	"save.h"
+
+1610903627 source:c:\users\sylvex\onedrive\桌面\完成品\傷害變紅+扣血條\tank_fantasy_rotation\setting.c
+	"setting.h"
+
+1610909578 source:c:\users\sylvex\onedrive\桌面\完成品\傷害變紅+扣血條\tank_fantasy_rotation\tank.c
+	"tank.h"
+
+1608992650 source:c:\users\sylvex\onedrive\桌面\完成品\傷害變紅+扣血條\tank_fantasy_rotation\test.c
+	"test.h"
+	"camera.h"
+
+1610918811 c:\users\sylvex\onedrive\桌面\完成品\傷害變紅+扣血條\tank_fantasy_rotation\test.h
+	<allegro5/allegro.h>
+	<math.h>
+
+1610919608 source:c:\users\曾煥博\desktop\完成品\傷害變紅+扣血條\tank_fantasy_rotation\boss.c
+	"boss.h"
+
+1610919294 c:\users\曾煥博\desktop\完成品\傷害變紅+扣血條\tank_fantasy_rotation\boss.h
+	"tank.h"
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_native_dialog.h>
+
+1610918812 c:\users\曾煥博\desktop\完成品\傷害變紅+扣血條\tank_fantasy_rotation\tank.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	"obstacle.h"
+
+1610867872 c:\users\曾煥博\desktop\完成品\傷害變紅+扣血條\tank_fantasy_rotation\obstacle.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+
+1610888150 source:c:\users\曾煥博\desktop\完成品\傷害變紅+扣血條\tank_fantasy_rotation\camera.c
+	"camera.h"
+
+1610888150 c:\users\曾煥博\desktop\完成品\傷害變紅+扣血條\tank_fantasy_rotation\camera.h
+	<allegro5/allegro.h>
+	"tank.h"
+
+1610914222 source:c:\users\曾煥博\desktop\完成品\傷害變紅+扣血條\tank_fantasy_rotation\collision.c
+	"collision.h"
+
+1610909038 c:\users\曾煥博\desktop\完成品\傷害變紅+扣血條\tank_fantasy_rotation\collision.h
+	"tank.h"
+	"obstacle.h"
+	"enemy.h"
+	"firebar.h"
+	"boss.h"
+
+1610917706 c:\users\曾煥博\desktop\完成品\傷害變紅+扣血條\tank_fantasy_rotation\enemy.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	"tank.h"
+
+1610864562 c:\users\曾煥博\desktop\完成品\傷害變紅+扣血條\tank_fantasy_rotation\firebar.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_image.h>
+	<math.h>
+	"tank.h"
+
+1610905954 source:c:\users\曾煥博\desktop\完成品\傷害變紅+扣血條\tank_fantasy_rotation\control.c
+	"control.h"
+
+1610905954 c:\users\曾煥博\desktop\完成品\傷害變紅+扣血條\tank_fantasy_rotation\control.h
+	"tank.h"
+	"camera.h"
+	"level.h"
+	"math.h"
+
+1610906456 c:\users\曾煥博\desktop\完成品\傷害變紅+扣血條\tank_fantasy_rotation\level.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1605779614 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\allegro_audio.h
+	"allegro5/allegro.h"
+
+1605779614 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\allegro_acodec.h
+	"allegro5/allegro.h"
+	"allegro5/allegro_audio.h"
+
+1610918270 source:c:\users\曾煥博\desktop\完成品\傷害變紅+扣血條\tank_fantasy_rotation\draw.c
+	"draw.h"
+
+1610918270 c:\users\曾煥博\desktop\完成品\傷害變紅+扣血條\tank_fantasy_rotation\draw.h
+	"tank.h"
+	"obstacle.h"
+	"camera.h"
+	"level.h"
+	"enemy.h"
+	"firebar.h"
+	"boss.h"
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_color.h>
+
+1605779614 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\allegro_font.h
+	"allegro5/allegro.h"
+
+1605779615 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\allegro_ttf.h
+	"allegro5/allegro.h"
+	"allegro5/allegro_font.h"
+
+1605779614 c:\users\曾煥博\downloads\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\allegro-x86_64-w64-mingw32-gcc-8.2.1-posix-seh-static-5.2.5.1\include\allegro5\allegro_color.h
+	"allegro5/allegro.h"
+
+1610917838 source:c:\users\曾煥博\desktop\完成品\傷害變紅+扣血條\tank_fantasy_rotation\enemy.c
+	"enemy.h"
+
+1610864728 source:c:\users\曾煥博\desktop\完成品\傷害變紅+扣血條\tank_fantasy_rotation\firebar.c
+	"firebar.h"
+
+1610920448 source:c:\users\曾煥博\desktop\完成品\傷害變紅+扣血條\tank_fantasy_rotation\game_state.c
+	"game_state.h"
+
+1610885728 c:\users\曾煥博\desktop\完成品\傷害變紅+扣血條\tank_fantasy_rotation\game_state.h
+	"camera.h"
+	"setting.h"
+	"control.h"
+	"mechanics.h"
+	"draw.h"
+	"level.h"
+	"enemy.h"
+	"collision.h"
+	"tank.h"
+	"firebar.h"
+	"save.h"
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	<allegro5/allegro_native_dialog.h>
+
+1610885728 c:\users\曾煥博\desktop\完成品\傷害變紅+扣血條\tank_fantasy_rotation\setting.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+
+1609869598 c:\users\曾煥博\desktop\完成品\傷害變紅+扣血條\tank_fantasy_rotation\mechanics.h
+	"tank.h"
+	"obstacle.h"
+	<allegro5/allegro_primitives.h>
+
+1610885954 c:\users\曾煥博\desktop\完成品\傷害變紅+扣血條\tank_fantasy_rotation\save.h
+	<string.h>
+	"game_state.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_native_dialog.h>
+
+1610914688 source:c:\users\曾煥博\desktop\完成品\傷害變紅+扣血條\tank_fantasy_rotation\level.c
+	"level.h"
+
+1610883554 source:c:\users\曾煥博\desktop\完成品\傷害變紅+扣血條\tank_fantasy_rotation\main.c
+	"game_state.h"
+
+1610909038 source:c:\users\曾煥博\desktop\完成品\傷害變紅+扣血條\tank_fantasy_rotation\obstacle.c
+	"obstacle.h"
+
+1610890822 source:c:\users\曾煥博\desktop\完成品\傷害變紅+扣血條\tank_fantasy_rotation\save.c
+	"save.h"
+
+1610903628 source:c:\users\曾煥博\desktop\完成品\傷害變紅+扣血條\tank_fantasy_rotation\setting.c
+	"setting.h"
+
+1610909580 source:c:\users\曾煥博\desktop\完成品\傷害變紅+扣血條\tank_fantasy_rotation\tank.c
+	"tank.h"
+
+1608992652 source:c:\users\曾煥博\desktop\完成品\傷害變紅+扣血條\tank_fantasy_rotation\test.c
+	"test.h"
+	"camera.h"
+
+1610918812 c:\users\曾煥博\desktop\完成品\傷害變紅+扣血條\tank_fantasy_rotation\test.h
+	<allegro5/allegro.h>
+	<math.h>
+
+1610919608 source:c:\users\hp\downloads\tank_fantasy\boss.c
+	"boss.h"
+
+1610919294 c:\users\hp\downloads\tank_fantasy\boss.h
+	"tank.h"
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_native_dialog.h>
+
+1610918812 c:\users\hp\downloads\tank_fantasy\tank.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	"obstacle.h"
+
+1610867872 c:\users\hp\downloads\tank_fantasy\obstacle.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+
+1610888150 source:c:\users\hp\downloads\tank_fantasy\camera.c
+	"camera.h"
+
+1610888150 c:\users\hp\downloads\tank_fantasy\camera.h
+	<allegro5/allegro.h>
+	"tank.h"
+
+1610914222 source:c:\users\hp\downloads\tank_fantasy\collision.c
+	"collision.h"
+
+1610909038 c:\users\hp\downloads\tank_fantasy\collision.h
+	"tank.h"
+	"obstacle.h"
+	"enemy.h"
+	"firebar.h"
+	"boss.h"
+
+1610917706 c:\users\hp\downloads\tank_fantasy\enemy.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	"tank.h"
+
+1610864562 c:\users\hp\downloads\tank_fantasy\firebar.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_image.h>
+	<math.h>
+	"tank.h"
+
+1610905954 source:c:\users\hp\downloads\tank_fantasy\control.c
+	"control.h"
+
+1610905954 c:\users\hp\downloads\tank_fantasy\control.h
+	"tank.h"
+	"camera.h"
+	"level.h"
+	"math.h"
+
+1610906456 c:\users\hp\downloads\tank_fantasy\level.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+
+1610918270 source:c:\users\hp\downloads\tank_fantasy\draw.c
+	"draw.h"
+
+1610918270 c:\users\hp\downloads\tank_fantasy\draw.h
+	"tank.h"
+	"obstacle.h"
+	"camera.h"
+	"level.h"
+	"enemy.h"
+	"firebar.h"
+	"boss.h"
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_color.h>
+
+1610917838 source:c:\users\hp\downloads\tank_fantasy\enemy.c
+	"enemy.h"
+
+1610864728 source:c:\users\hp\downloads\tank_fantasy\firebar.c
+	"firebar.h"
+
+1610914688 source:c:\users\hp\downloads\tank_fantasy\level.c
+	"level.h"
+
+1610883554 source:c:\users\hp\downloads\tank_fantasy\main.c
+	"game_state.h"
+
+1610885728 c:\users\hp\downloads\tank_fantasy\game_state.h
+	"camera.h"
+	"setting.h"
+	"control.h"
+	"mechanics.h"
+	"draw.h"
+	"level.h"
+	"enemy.h"
+	"collision.h"
+	"tank.h"
+	"firebar.h"
+	"save.h"
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	<allegro5/allegro_native_dialog.h>
+
+1610885728 c:\users\hp\downloads\tank_fantasy\setting.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+
+1609869598 c:\users\hp\downloads\tank_fantasy\mechanics.h
+	"tank.h"
+	"obstacle.h"
+	<allegro5/allegro_primitives.h>
+
+1610885954 c:\users\hp\downloads\tank_fantasy\save.h
+	<string.h>
+	"game_state.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_native_dialog.h>
+
+1610909038 source:c:\users\hp\downloads\tank_fantasy\obstacle.c
+	"obstacle.h"
+
+1610903628 source:c:\users\hp\downloads\tank_fantasy\setting.c
+	"setting.h"
+
+1610909580 source:c:\users\hp\downloads\tank_fantasy\tank.c
+	"tank.h"
+
+1608992652 source:c:\users\hp\downloads\tank_fantasy\test.c
+	"test.h"
+	"camera.h"
+
+1610918812 c:\users\hp\downloads\tank_fantasy\test.h
+	<allegro5/allegro.h>
+	<math.h>
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\allegro_audio.h
+	"allegro5/allegro.h"
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\allegro_acodec.h
+	"allegro5/allegro.h"
+	"allegro5/allegro_audio.h"
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\allegro_font.h
+	"allegro5/allegro.h"
+
+1553403848 c:\compiler\allegro-x86_64-w64-\include\allegro5\allegro_ttf.h
+	"allegro5/allegro.h"
+	"allegro5/allegro_font.h"
+
+1553403849 c:\compiler\allegro-x86_64-w64-\include\allegro5\allegro_color.h
+	"allegro5/allegro.h"
+
+1610935047 source:c:\users\hp\downloads\tank_fantasy\save.c
+	"save.h"
+
+1610934917 source:c:\users\hp\downloads\tank_fantasy\game_state.c
+	"game_state.h"
+

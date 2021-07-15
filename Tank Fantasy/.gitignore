@@ -1,0 +1,5 @@
+bin/
+media/
+obj/
+*.exe
+*.dat
